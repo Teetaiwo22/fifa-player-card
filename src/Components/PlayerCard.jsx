@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card";
 const PlayerCard = ({ name, team, nationality, jerseyNumber, age, img }) => {
   return (
     <div>
+      
       <Card style={{ width: "" , height: '60%'}}>
         <div className="cardImage">
           <Card.Img className="img" variant="top" src={img}  />
